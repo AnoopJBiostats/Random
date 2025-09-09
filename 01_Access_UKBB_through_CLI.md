@@ -32,7 +32,7 @@ dx cd Project_Clinical_info/
 dx ls -la
 ```
 
-5. Upload/Download/Test Files
+## 5. Upload/Download/Test Files
 ```bash
 echo "Hello_PGx!" > testing1.txt
 dx upload testing1.txt
@@ -42,21 +42,21 @@ dx cat testing1.txt
 dx describe testing1.txt
 ```
 
-6. Select and Manage Projects
+## 6. Select and Manage Projects
 ```bash
 dx select  # Choose a project
 dx select --level VIEW
 dx select --level ADMINISTRATOR
 ```
 
-7. Search for Data
+## 7. Search for Data
 ```bash
 dx find data --name "file_name.txt"
 dx find data --property eid=1000023
 dx find data --property field_id=22022
 ```
 
-8. Help & Documentation
+## 8. Help & Documentation
 ```bash
 dx --help
 dx help all
