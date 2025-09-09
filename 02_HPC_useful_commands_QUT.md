@@ -1,4 +1,4 @@
-# 🖥️ QUT HPC: Useful Commands, Scripts, and Tips
+# 🖥️ QUT HPC: Useful Commands
 
 This document includes a quick reference guide for submitting jobs, monitoring resources, using interactive jobs, setting up modules, and customizing your HPC environment via `.bashrc`.
 
