@@ -20,6 +20,7 @@ pip install readline  # Optional but recommended for CLI usability
 
 ## 3. Authenticate with DNAnexus
 ```bash
+# check this
 dx login  # Follow prompts to log in
 dx whoami  # Check if logged in correctly
 ```
