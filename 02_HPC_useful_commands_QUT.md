@@ -103,7 +103,11 @@ How to Apply Changes Immediately
 source ~/.bashrc
 ```
 
-
+## Copy files
+this is helpful for bigger files
+```bash
+rsync -ah --progress /from-folder/ /to-folder/
+```
 
 
 
