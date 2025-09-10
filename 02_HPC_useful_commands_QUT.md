@@ -103,6 +103,17 @@ How to Apply Changes Immediately
 source ~/.bashrc
 ```
 
+## 7. Screen
+```bash
+screen -ls # list the screens
+screen -S name # creating new screen
+screen -dr new # detach and reattach
+screen -r screenToReattach # 
+screen -X -S screenToRemove quit # remove a screen
+screen -d NameofScreen	[ctrl + A + D] # detach a screen
+echo $STY # check the screen you are in - name of the screen
+```
+
 ## Copy files
 this is helpful for bigger files
 ```bash
