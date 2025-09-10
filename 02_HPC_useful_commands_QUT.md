@@ -103,7 +103,8 @@ How to Apply Changes Immediately
 source ~/.bashrc
 ```
 
-## 7. Screen
+## 7. Screen 
+to open new backend session
 ```bash
 screen -ls # list the screens
 screen -S name # creating new screen
@@ -113,6 +114,17 @@ screen -X -S screenToRemove quit # remove a screen
 screen -d NameofScreen	[ctrl + A + D] # detach a screen
 echo $STY # check the screen you are in - name of the screen
 ```
+
+## 8. tmux - Terminal multiplexer (modern)
+to open new backend session
+```bash
+tmux new -s name
+ctrl+b --> and then --> d # to quit
+tmux ls # list
+tmux attach -t name # to attach
+tmux kill-session -t name
+```
+
 
 ## Copy files
 this is helpful for bigger files
