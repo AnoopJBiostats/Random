@@ -132,7 +132,7 @@ this is helpful for bigger files
 rsync -ah --progress /from-folder/ /to-folder/
 ```
 
-## 9. Batch Job
+## 10. Batch Job
 script header for pbs job submission. 
 ```bash
 #!/bin/bash
@@ -146,3 +146,10 @@ script header for pbs job submission.
 #PBS -V
 ```
 
+## 11. Load modules
+load modules, - examples
+```bash
+module avail R
+module spider R
+module load R
+```
