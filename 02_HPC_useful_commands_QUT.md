@@ -126,12 +126,23 @@ tmux kill-session -t name
 ```
 
 
-## Copy files
+## 9. Copy files
 this is helpful for bigger files
 ```bash
 rsync -ah --progress /from-folder/ /to-folder/
 ```
 
-
-
+## 9. Batch Job
+script header for pbs job submission. 
+```bash
+#!/bin/bash
+#PBS -N Job_name
+#PBS -l walltime=12:00:00
+#PBS -l select=1:ncpus=20:ngpus=1:mem=200GB
+#PBS -o /path/to/logs/filename.out
+#PBS -e /path/to/logs/filename.err
+#PBS -M email_id
+#PBS -m abe
+#PBS -V
+```
 
