@@ -153,3 +153,23 @@ module avail R
 module spider R
 module load R
 ```
+
+
+## 12. Create folders locally and push to GitHub
+
+```bash
+# Clone your repo (first time only)
+git clone https://github.com/AnoopJBiostats/random.git
+cd random
+
+# Create a dated folder
+mkdir folderName
+
+# Move or add scripts
+cp ~/Downloads/my_script.R folderName/
+
+# Add and commit changes
+git add .
+git commit -m "Add folderName scripts"
+git push origin main
+```
