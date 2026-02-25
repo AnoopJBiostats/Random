@@ -1,5 +1,5 @@
 ## Rehead all VCFs
-
+ 
 #!/bin/bash
 #PBS -N rehead_files
 #PBS -l walltime=20:00:00
