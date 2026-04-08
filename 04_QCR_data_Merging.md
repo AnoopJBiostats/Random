@@ -1,4 +1,4 @@
-## Rehead all VCFs
+## Rehead all VCFs 
  
 #!/bin/bash
 #PBS -N rehead_files
